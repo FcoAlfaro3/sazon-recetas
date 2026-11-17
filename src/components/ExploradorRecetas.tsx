@@ -93,7 +93,7 @@ export function ExploradorRecetas({ categorias }: { categorias: OpcionCategoria[
           />
         </div>
 
-        <fieldset>
+        <fieldset className="min-w-0">
           <legend className="sr-only">Filtrar por categoría</legend>
           <div className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-2 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
             <Chip activo={categoria === ""} onClick={() => setCategoria("")}>

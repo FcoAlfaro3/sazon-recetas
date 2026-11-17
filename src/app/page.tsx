@@ -13,9 +13,9 @@ const IDEAS = ["pollo", "pasta", "curry", "tacos", "postre", "sopa"];
 export default function Inicio() {
   return (
     <>
-      <section className="grid items-center gap-12 pt-12 pb-16 md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] md:pt-20">
+      <section className="grid grid-cols-1 items-center gap-12 pt-12 pb-16 md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] md:pt-20">
         <div>
-          <h1 className="text-[clamp(3.25rem,9vw,7rem)] font-extrabold leading-[0.92] tracking-[-0.04em]">
+          <h1 className="text-[clamp(2.75rem,8.5vw,7rem)] font-extrabold leading-[0.92] tracking-[-0.04em]">
             ¿Qué cocinamos hoy?
           </h1>
           <p className="mt-6 max-w-xl text-lg text-piedra">
