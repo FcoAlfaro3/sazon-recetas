@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+  images: {
+    // Solo permitimos optimizar imágenes de TheMealDB
+    remotePatterns: [new URL("https://www.themealdb.com/images/**")],
+    qualities: [75],
+  },
   turbopack: {
     rules: {
       "*.css": {
