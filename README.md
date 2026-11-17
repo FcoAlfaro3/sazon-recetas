@@ -4,7 +4,7 @@ Aplicación web construida con **Next.js 16 (App Router)**, **TypeScript** y **T
 
 Permite buscar recetas por nombre o ingrediente (también entiende palabras comunes en español), explorar por categoría, ver ingredientes y pasos, marcar los ingredientes que ya tienes, sortear una receta al azar y guardar favoritas en el navegador.
 
-- **Sitio en producción:** https://sazon-recetas.vercel.app  ← _reemplazar por la URL real de Vercel_
+- **Sitio en producción:** https://sazon-recetas.vercel.app
 - **Proceso de Vibe Coding:** [VIBE_CODING.md](./VIBE_CODING.md)
 - **Datos:** [TheMealDB](https://www.themealdb.com/api.php) (API pública y gratuita)
 

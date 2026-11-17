@@ -142,4 +142,9 @@ README con instalación y requisitos cubiertos, este documento, `.env.example` y
 
 | Fecha | Prompt o problema | Resultado |
 | --- | --- | --- |
-| | | |
+| 16/11/2026 | Prompt: "¿Qué necesito hacer para completar el entregable?" | La IA me dio una lista de pasos: probar en local, subir a GitHub, desplegar en Vercel y documentar. |
+| 16/11/2026 | Ejecuté npm install y npm run dev en C:\dev\sazon-recetas con .env.local. | Instalación sin vulnerabilidades; la app levantó en http://localhost:3000. |
+| 16/11/2026 | Problema: el comando git no se reconocía en CMD. | La IA identificó que tenía GitHub Desktop (que no agrega git a la terminal). Publiqué el repositorio desde GitHub Desktop y se conservaron los 11 commits. |
+| 16/11/2026 | Problema: Vercel indicó que el proyecto "sazon-recetas" ya existía y no había ningún deploy. | Revisé el proyecto existente, confirmé que estaba conectado a GitHub y que MEALDB_API_KEY estaba configurada. |
+| 16/11/2026 | Problema: Vercel no dejaba guardar NEXT_PUBLIC_SITE_URL porque la marcó como secreta. | Con ayuda de la IA entendí que las variables NEXT_PUBLIC_ son públicas; la cambié a tipo Config y se guardó. |
+| 16/11/2026 | Actualicé README.md con la URL de producción e hice push a main para lanzar el deploy. | Sitio publicado en https://sazon-recetas.vercel.app | 
